@@ -1,0 +1,16 @@
+{
+  "name": "Baby Bloom | Premium Baby Products & Newborn Essentials",
+  "short_name": "Baby Bloom",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF9",
+  "theme_color": "#F43F5E",
+  "description": "Premium baby products, newborn essentials, baby clothing, and eco-friendly nursery items.",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
