@@ -1,0 +1,6 @@
+{
+  "name": "Baby Bloom",
+  "description": "Premium baby essentials designed with comfort, safety, and love for every stage of your baby's journey.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
