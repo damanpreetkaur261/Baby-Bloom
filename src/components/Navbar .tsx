@@ -3,7 +3,7 @@ import { ShoppingCart, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useCart } from '../context/CartContext';
-import CartDrawer from './CartDrawer';
+import CartDrawer from './CartDrawer ';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
