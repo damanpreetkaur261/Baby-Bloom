@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { ArrowRight, ShieldCheck, Leaf, HeartHandshake, Truck, HeadphonesIcon } from 'lucide-react';
 import { featuredProducts, testimonials } from '../data';
 import { useCart } from '../context/CartContext';
+import SEO from '../components/SEO';
 
 import heroImage from '../assets/images/hero_nursery_1781762447601.jpg';
 import catBabyCare from '../assets/images/cat_baby_care_1781762462433.jpg';
@@ -27,15 +28,43 @@ const features = [
 
 export default function Home() {
   const { addToCart } = useCart();
+  
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Baby Bloom",
+    "description": "Premium baby products, newborn essentials, baby clothing, and eco-friendly nursery items.",
+    "url": "https://babybloom-52.netlify.app/",
+    "telephone": "+18001234567",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Baby Lane",
+      "addressLocality": "San Francisco",
+      "addressRegion": "CA",
+      "postalCode": "94107",
+      "addressCountry": "US"
+    }
+  };
+
   return (
     <div className="bg-stone-50">
+      <SEO 
+        title="Baby Bloom | Premium Baby Products & Newborn Essentials"
+        description="Discover premium, safe, and eco-friendly baby products at Baby Bloom. Shop newborn essentials, feeding gear, nursery decor, and educational toys."
+        canonical="/"
+        schema={schema}
+      />
+      
       {/* Hero Section */}
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <img 
             src={heroImage} 
-            alt="Hero Baby" 
+            alt="Beautiful Baby Nursery Background" 
             className="w-full h-full object-cover opacity-80"
+            fetchpriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-stone-900/40"></div>
         </div>
@@ -90,7 +119,7 @@ export default function Home() {
               className="group cursor-pointer"
             >
               <div className="relative h-64 mb-6 overflow-hidden rounded-2xl shadow-sm">
-                <img src={cat.img} alt={cat.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                <img src={cat.img} alt={`Category: ${cat.name}`} loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
                 <h3 className="absolute bottom-4 left-4 text-white font-serif font-bold text-xl">{cat.name}</h3>
               </div>
@@ -136,7 +165,7 @@ export default function Home() {
               className="bg-white rounded-2xl shadow-sm overflow-hidden hover:shadow-md transition-shadow group"
             >
               <div className="h-64 overflow-hidden bg-stone-100">
-                <img src={product.image} alt={product.name} className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+                <img src={product.image} alt={product.name} loading="lazy" decoding="async" className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="p-6 text-center">
                 <h3 className="font-medium text-stone-800 mb-2 truncate">{product.name}</h3>
