@@ -15,7 +15,7 @@ export default function About() {
     "@type": "AboutPage",
     "name": "About Baby Bloom",
     "description": "Learn about Baby Bloom's mission to provide parents with safe, high-quality, and thoughtfully designed baby products.",
-    "url": "https://babybloom-52.netlify.app/about"
+    "url": "https://baby-bloom-jet.vercel.app/about"
   };
 
   return (

@@ -17,7 +17,7 @@ export default function SEO({
   image, 
   schema 
 }: SEOProps) {
-  const siteUrl = 'https://babybloom-52.netlify.app';
+  const siteUrl = 'https://baby-bloom-jet.vercel.app/';
   const fullUrl = canonical ? `${siteUrl}${canonical}` : siteUrl;
   const defaultImage = `${siteUrl}/favicon.ico`;
   const finalImage = image || defaultImage;

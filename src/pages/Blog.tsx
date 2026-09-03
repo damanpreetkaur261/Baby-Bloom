@@ -9,7 +9,7 @@ export default function Blog() {
     "@type": "Blog",
     "name": "Baby Bloom Parenting Hub",
     "description": "Practical tips, expert advice, and resources to support you on your parenting journey.",
-    "url": "https://babybloom-52.netlify.app/blog",
+    "url": "https://baby-bloom-jet.vercel.app/blog",
     "blogPost": blogArticles.map(article => ({
       "@type": "BlogPosting",
       "headline": article.title,

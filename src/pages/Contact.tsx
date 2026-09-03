@@ -31,7 +31,7 @@ export default function Contact() {
     "@type": "ContactPage",
     "name": "Contact Baby Bloom",
     "description": "Get in touch with Baby Bloom. We're here to help with your questions about products, shipping, and parenting resources.",
-    "url": "https://babybloom-52.netlify.app/contact"
+    "url": "https://baby-bloom-jet.vercel.app/contact"
   };
 
   return (
