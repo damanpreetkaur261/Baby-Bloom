@@ -23,7 +23,7 @@ export default function About() {
       <SEO 
         title="About Baby Bloom | Baby Products & Essentials"
         description="Learn about Baby Bloom's mission to provide parents with safe, high-quality, and thoughtfully designed baby products."
-        canonical="/about"
+        canonical="about"
         schema={schema}
       />
       
