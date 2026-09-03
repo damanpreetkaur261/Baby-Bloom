@@ -34,7 +34,7 @@ export default function Home() {
     "@type": "Store",
     "name": "Baby Bloom",
     "description": "Premium baby products, newborn essentials, baby clothing, and eco-friendly nursery items.",
-    "url": "https://babybloom-52.netlify.app/",
+    "url": "https://baby-bloom-jet.vercel.app/",
     "telephone": "+18001234567",
     "priceRange": "$$",
     "address": {
