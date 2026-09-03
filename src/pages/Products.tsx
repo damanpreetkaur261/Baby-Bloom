@@ -20,7 +20,7 @@ export default function Products() {
       <SEO 
         title="Products | Premium Baby Essentials | Baby Bloom"
         description="Shop our collection of premium baby products including nursery essentials, feeding items, and toys. Safe, eco-friendly, and parent-approved."
-        canonical="/products"
+        canonical="products"
         schema={schema}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

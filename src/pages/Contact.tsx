@@ -39,7 +39,7 @@ export default function Contact() {
       <SEO 
         title="Contact Baby Bloom | Customer Support & Help"
         description="Get in touch with Baby Bloom. We're here to help with your questions about premium baby products, shipping, and parenting resources."
-        canonical="/contact"
+        canonical="contact"
         schema={schema}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

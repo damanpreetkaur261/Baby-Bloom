@@ -24,7 +24,7 @@ export default function Blog() {
       <SEO 
         title="Parenting Hub | Baby Care Tips & Advice | Baby Bloom"
         description="Practical tips, expert advice, and resources to support you on your parenting journey. Read our latest articles on baby care, feeding, and more."
-        canonical="/blog"
+        canonical="blog"
         schema={schema}
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
