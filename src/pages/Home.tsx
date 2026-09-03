@@ -52,7 +52,7 @@ export default function Home() {
       <SEO 
         title="Baby Bloom | Premium Baby Products & Newborn Essentials"
         description="Discover premium, safe, and eco-friendly baby products at Baby Bloom. Shop newborn essentials, feeding gear, nursery decor, and educational toys."
-        canonical="/"
+        canonical="https://baby-bloom-jet.vercel.app/"
         schema={schema}
       />
       
