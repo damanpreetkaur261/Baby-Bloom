@@ -7,7 +7,7 @@ export default function Blog() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": "Parenting Blog | Baby Tips & Advice | Baby Bloom",
+    "name": "Baby Bloom Parenting Hub",
     "description": "Practical tips, expert advice, and resources to support you on your parenting journey.",
     "url": "https://babybloom-52.netlify.app/blog",
     "blogPost": blogArticles.map(article => ({

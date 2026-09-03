@@ -29,7 +29,7 @@ export default function Contact() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact Baby Bloom | Customer Support & Help",
+    "name": "Contact Baby Bloom",
     "description": "Get in touch with Baby Bloom. We're here to help with your questions about products, shipping, and parenting resources.",
     "url": "https://babybloom-52.netlify.app/contact"
   };

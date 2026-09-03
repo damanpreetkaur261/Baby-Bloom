@@ -13,7 +13,7 @@ export default function About() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "About Baby Bloom | Baby Products & Essentials",
+    "name": "About Baby Bloom",
     "description": "Learn about Baby Bloom's mission to provide parents with safe, high-quality, and thoughtfully designed baby products.",
     "url": "https://babybloom-52.netlify.app/about"
   };
