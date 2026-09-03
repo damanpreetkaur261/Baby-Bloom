@@ -21,7 +21,7 @@ export default function About() {
   return (
     <div className="bg-stone-50 py-16 md:py-24">
       <SEO 
-        title="About Us | Baby Bloom"
+        title="About Baby Bloom | Baby Products & Essentials"
         description="Learn about Baby Bloom's mission to provide parents with safe, high-quality, and thoughtfully designed baby products."
         canonical="/about"
         schema={schema}

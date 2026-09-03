@@ -37,7 +37,7 @@ export default function Contact() {
   return (
     <div className="bg-stone-50 py-16 md:py-24">
       <SEO 
-        title="Contact Us | Baby Bloom"
+        title="Contact Baby Bloom | Customer Support & Help"
         description="Get in touch with Baby Bloom. We're here to help with your questions about premium baby products, shipping, and parenting resources."
         canonical="/contact"
         schema={schema}

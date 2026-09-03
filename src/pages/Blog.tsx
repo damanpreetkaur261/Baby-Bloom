@@ -22,7 +22,7 @@ export default function Blog() {
   return (
     <div className="bg-stone-50 py-16 md:py-24">
       <SEO 
-        title="Parenting Hub Blog | Baby Bloom"
+        title="Parenting Hub | Baby Care Tips & Advice | Baby Bloom"
         description="Practical tips, expert advice, and resources to support you on your parenting journey. Read our latest articles on baby care, feeding, and more."
         canonical="/blog"
         schema={schema}
